@@ -11,8 +11,9 @@ In addition, this script adds:
 
 * No 3rd-party dependencies.
 * Built in support for calling `initialize` by the constructor.
-* Will automatically extend simple objects, rather than replace them (useful for _options_, etc).
-* Adds `__name__` property to methods for introspection (ie for use with a call stack - see specs for usage).
+* Will automatically extend simple objects, rather than replace them.
+* Adds `__name__` property to methods for introspection (ie for use with a call stack - see below for example).
+* Only __677 bytes__ minified.
 
 Basic Usage
 -------------------
